@@ -1,6 +1,7 @@
 import modules from "./modules/radio/index.mjs"
 import preset from "./template/index.mjs"
 
+
 const getTemplate = (html) => {
   return new Promise(function (resolve, reject) {
     let parser = new DOMParser()
