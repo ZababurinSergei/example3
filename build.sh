@@ -11,10 +11,10 @@ rm -f ./build/*.*
 cd src
 export DIR=`pwd`
 sh ./build.sh
-cd ..
+#cd ..
 
 # cp ./build/*.* examples/src/js
-cp ./build/*.* examples/src/free-queue
+#cp ./build/*.* examples/src/free-queue
 
 #cd examples
 #npm run build:webpack
