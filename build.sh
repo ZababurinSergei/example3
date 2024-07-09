@@ -16,7 +16,7 @@ cd ..
 # cp ./build/*.* examples/src/js
 cp ./build/*.* examples/src/free-queue
 
-cd examples
-npm run build:webpack
-npm run start:webpack
-cd ..
+#cd examples
+#npm run build:webpack
+#npm run start:webpack
+#cd ..
